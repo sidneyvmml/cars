@@ -1,0 +1,24 @@
+.product-card {
+  margin-bottom: 30px;
+}
+
+.search-card-top-container {
+  text-align: center;
+  background-color: #ededed;
+  height: 86px;
+  margin-bottom: 50px;
+  padding: 21px 14px 25px 14px;
+}
+
+.searh-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .search-card-top-container {
+    height: 123px;
+    padding: 42px 14px 41px 14px;   
+  }  
+}

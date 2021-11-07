@@ -1,0 +1,35 @@
+.btn-buy h6 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16, 41px;
+  font: Roboto;
+  font-style: normal;
+}
+
+.btn-container-buy {
+  display: flex;
+}
+
+.btn-container-buy button {
+  border-radius: 10px;
+  background-color: #00285f;
+  width: 77px;
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 576px) {
+  .btn h6 {
+    font-size: 18px;
+  }
+  .btn-icon-container {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn-container-buy button {
+    width: 174px;
+  }
+}

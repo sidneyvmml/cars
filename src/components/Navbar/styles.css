@@ -1,0 +1,40 @@
+.main-nav {
+  padding-left: 40px;
+  min-height: 70px;
+  background-color: #f78b00;
+}
+.nav-logo-text {
+  color: #00285f;
+  font-size: 24px;
+}
+.nav-logo-text:hover {
+  color: #fff;
+}
+.nav-logo-text h2 {
+  font-weight: bold;
+}
+
+.main-menu {
+  display: flex;
+  font-size: 18px;
+  width: 380px;
+  justify-content: space-between;
+}
+
+.main-menu a {
+  color: #00285f;
+  font-weight: bold;
+}
+
+.main-menu a:hover {
+  color: #00285f;
+}
+
+.main-menu a.active {
+  color: #00285f;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #00285f !important;
+}
